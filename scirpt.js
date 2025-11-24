@@ -126,7 +126,7 @@ const countdownTitleEl = document.getElementById('countdown-date');
 
 if (countdownTitleEl) {
     const options = { day: 'numeric', month: 'long', year: 'numeric' };
-    countdownTitleEl.textContent = `Menuju ${countdownTargetDate.toLocaleDateString('id-ID', options)}`;
+    countdownTitleEl.textContent = `Towards ${countdownTargetDate.toLocaleDateString('id-ID', options)}`;
 }
 
 function padTime(value) {
